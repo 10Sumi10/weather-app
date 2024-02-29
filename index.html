@@ -3,15 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Weather App</title>
-		<link rel="stylesheet" href="src/style.css" />
-		<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="src/style.css" />
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+		<title>Weather-Forecast</title>
 	</head>
 	<body>
 		<div class="weather-app">
@@ -35,7 +35,7 @@
 							<span id="time"></span>,
 							<span id="description"></span>
 							<br />
-							Humidity: <strong id="humidity"></strong> Wind:
+							Humidity: <strong id="humidity"></strong>, Wind:
 							<strong id="wind-speed"></strong>
 						</p>
 					</div>
@@ -45,16 +45,21 @@
 						<div class="weather-app-unit">°C</div>
 					</div>
 				</div>
+				<div class="weather-forecast" id="forecast"></div>
 			</main>
+
 			<footer>
 				This project was coded by
-				<a href="https://github.com/10sumi10/" target="_blank">Sushma Gurung</a>
-				is
-				<a href="https://github.com/10Sumi10/weather-app" target="_blank"
+				<a href="https://github.com/10sumi10/" target="_blank">
+					Sushma Gurung </a
+				>, is
+				<a href="https://github.com/10Sumi10/Weather-Forcast" target="_blank"
 					>open-sourced on GitHub</a
 				>
 				and
-				<a href="https://bucolic-kheer-15b159.netlify.app/" target="_blank"
+				<a
+					href="file:///C:/Users/sushm/OneDrive/Desktop/Weather-Forcast/weather.html"
+					target="_blank"
 					>hosted on Netlify</a
 				>
 			</footer>
